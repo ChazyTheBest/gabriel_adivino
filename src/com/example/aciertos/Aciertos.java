@@ -18,7 +18,7 @@ public class Aciertos
 
         while (n != x)
         {
-            System.out.print("Introduce el valor de X: ");
+            System.out.print("Introduce el valor de X (entre 10 y 50): ");
             n = sc.nextInt();
 
             System.out.println(n > x ? "Te pasaste Amigo"
