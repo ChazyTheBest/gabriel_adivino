@@ -30,6 +30,7 @@ public class GabrielBlancaMontesAdivino
             cont++;
 
             System.out.print("Introduce el valor de X (entre 10 y 50): ");
+            while (!sc.hasNextInt()) sc.next();
             n = sc.nextInt();
 
             System.out.println(n > x ? "Te pasaste Amigo"
