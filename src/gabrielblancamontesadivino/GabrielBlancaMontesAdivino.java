@@ -27,14 +27,14 @@ public class GabrielBlancaMontesAdivino
 
         while (n != x)
         {
+            cont++;
+
             System.out.print("Introduce el valor de X (entre 10 y 50): ");
             n = sc.nextInt();
 
             System.out.println(n > x ? "Te pasaste Amigo"
                             : (n < x ? "Casi cerca..."
                                      : "Excelente!!! Has acertado. No. de intentos: " + cont));
-
-            cont++;
         }
 
         sc.close();
